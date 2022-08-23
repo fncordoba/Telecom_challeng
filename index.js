@@ -18,8 +18,6 @@ const main = async() => {
             case 1:
                 // Mostrar mensaje
                 const termino = await leerInput('Ciudad: ');
-                console.log(termino, "termino")
-                
                 // Buscar los lugares
                 const lugares = await busquedas.ciudad( termino );
                 
